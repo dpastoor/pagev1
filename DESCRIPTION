@@ -1,0 +1,20 @@
+Package: pagev1
+Type: Package
+Title: Tools to make pharmacometric analyses easier
+Version: 1.0.0
+Date: 2017-03-28 
+Authors@R: c(
+    person("Devin", "Pastoor",
+    email = "devin.pastoor@gmail.com", role = c("aut", "cre")))
+Description: Collection of functions for making PKPD analysis easier
+Depends:
+    R (>= 3.2.2)
+Imports:
+  rlang,
+  ggplot2,
+  dplyr (>= 0.5.0),
+  magrittr
+LazyData: TRUE
+License: MIT + file LICENSE
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
